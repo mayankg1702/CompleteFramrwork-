@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87448" started-at="2020-05-25T12:17:29Z" finished-at="2020-05-25T12:18:57Z">
+    <groups>
+    </groups>
+    <test name="signup Test Cases" duration-ms="50069" started-at="2020-05-25T12:17:29Z" finished-at="2020-05-25T12:18:19Z">
+      <class name="package1.Signuptestcases">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:package1.Signuptestcases@3d680b5a]" name="beforetest" is-config="true" duration-ms="5470" started-at="2020-05-25T17:47:29Z" finished-at="2020-05-25T17:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="firstlogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:package1.Signuptestcases@3d680b5a]" name="firstlogin" duration-ms="41992" started-at="2020-05-25T17:47:35Z" data-provider="getdata" finished-at="2020-05-25T17:48:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shunnu@kellton.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ana]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qat@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ghaziabad]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[21112]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[8574965241]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[hello all]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstlogin -->
+        <test-method status="PASS" signature="secondlogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:package1.Signuptestcases@3d680b5a]" name="secondlogin" duration-ms="2322" started-at="2020-05-25T17:48:17Z" data-provider="getdata1" finished-at="2020-05-25T17:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shunnu@kellton.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prem]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qat@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ghaziabad]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[XYZ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[21011]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9999092535]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[hello all]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondlogin -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:package1.Signuptestcases@3d680b5a]" name="closewindow" is-config="true" duration-ms="272" started-at="2020-05-25T17:48:19Z" finished-at="2020-05-25T17:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- package1.Signuptestcases -->
+    </test> <!-- signup Test Cases -->
+    <test name="Login Test Cases" duration-ms="37069" started-at="2020-05-25T12:18:20Z" finished-at="2020-05-25T12:18:57Z">
+      <class name="package1.logintestcases">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:package1.logintestcases@9353778]" name="beforetest" is-config="true" duration-ms="5162" started-at="2020-05-25T17:48:20Z" finished-at="2020-05-25T17:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="unthoriseduser(java.lang.String, java.lang.String)[pri:0, instance:package1.logintestcases@9353778]" name="unthoriseduser" duration-ms="12273" started-at="2020-05-25T17:48:25Z" data-provider="getdata" finished-at="2020-05-25T17:48:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[memo7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qat@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unthoriseduser -->
+        <test-method status="PASS" signature="unthoriseduser(java.lang.String, java.lang.String)[pri:0, instance:package1.logintestcases@9353778]" name="unthoriseduser" duration-ms="3880" started-at="2020-05-25T17:48:37Z" data-provider="getdata" finished-at="2020-05-25T17:48:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[memo8@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qat@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unthoriseduser -->
+        <test-method status="PASS" signature="unthoriseduser(java.lang.String, java.lang.String)[pri:0, instance:package1.logintestcases@9353778]" name="unthoriseduser" duration-ms="4502" started-at="2020-05-25T17:48:41Z" data-provider="getdata" finished-at="2020-05-25T17:48:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[    ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qat@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unthoriseduser -->
+        <test-method status="PASS" signature="unthoriseduser(java.lang.String, java.lang.String)[pri:0, instance:package1.logintestcases@9353778]" name="unthoriseduser" duration-ms="3507" started-at="2020-05-25T17:48:46Z" data-provider="getdata" finished-at="2020-05-25T17:48:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[memo12@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[    ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unthoriseduser -->
+        <test-method status="PASS" signature="unthoriseduser(java.lang.String, java.lang.String)[pri:0, instance:package1.logintestcases@9353778]" name="unthoriseduser" duration-ms="3212" started-at="2020-05-25T17:48:49Z" data-provider="getdata" finished-at="2020-05-25T17:48:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[     ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[     ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unthoriseduser -->
+        <test-method status="PASS" signature="z_user(java.lang.String, java.lang.String)[pri:0, instance:package1.logintestcases@9353778]" name="z_user" duration-ms="4385" started-at="2020-05-25T17:48:52Z" data-provider="getdata1" finished-at="2020-05-25T17:48:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[makgupta.cool@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qat@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z_user -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:package1.logintestcases@9353778]" name="teardown" is-config="true" duration-ms="147" started-at="2020-05-25T17:48:57Z" finished-at="2020-05-25T17:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- package1.logintestcases -->
+    </test> <!-- Login Test Cases -->
+  </suite> <!-- Suite -->
+</testng-results>
